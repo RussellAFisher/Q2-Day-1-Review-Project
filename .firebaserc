@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "galvanize-films-rf",
+    "default": "galvanize-films-rf"
+  }
+}

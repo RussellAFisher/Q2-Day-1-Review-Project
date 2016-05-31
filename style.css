@@ -1,0 +1,48 @@
+#home {
+  font-size: 25px;
+}
+
+#navArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7em;
+  border-style: solid;
+  border-color: white white black white;
+  background-color: white
+}
+
+#footer {
+  text-align: center;
+  padding: 0px;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:3em;
+   width:100%;
+   background-color: white;
+}
+
+body {
+  background-image: url("http://images-cdn.moviepilot.com/images/c_fill,h_2592,w_3888/t_mp_quality/fmnamir53dxhjhsvc3bo/the-top-5-movies-destined-to-flop-in-2016-835409.jpg");
+  background-size: cover;
+}
+
+#landMain {
+  padding: 0px;
+  background-color: hsla(180, 0%, 62%, .5);
+  height: 100vh;
+  text-align: center;
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 2px;
+}
+
+.searchArea {
+  display: flex;
+  justify-content: space-around;
+  margin: 300px 10px 0px 10px;
+}
