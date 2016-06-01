@@ -31,9 +31,23 @@ body {
 #landMain {
   padding: 0px;
   background-color: hsla(180, 0%, 62%, .5);
-  height: 100vh;
+  height: 200vh;
   text-align: center;
   font-size: 2em;
+}
+
+.results {
+  -webkit-text-stroke: 0.5px black;
+  background-color: hsla(180, 0%, 62%, .9);
+  color: white;
+}
+
+input{
+  color: black;
+}
+
+.info {
+  margin-top: 50px;
 }
 
 h1 {
@@ -45,4 +59,8 @@ h1 {
   display: flex;
   justify-content: space-around;
   margin: 300px 10px 0px 10px;
+}
+
+#copy {
+  margin-top: -2.5px;
 }
